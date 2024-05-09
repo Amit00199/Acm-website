@@ -1,26 +1,28 @@
-import React, { useState } from 'react';
-import './Committee.css';
+import React, { useState } from "react";
+import "./Committee.css";
 
 const Committee = () => {
- const [activeCommittee, setActiveCommittee] = useState('content1');
+  const [activeCommittee, setActiveCommittee] = useState("content1");
 
- const handleMouseOver = (id) => {
+  const handleMouseOver = (id) => {
     setActiveCommittee(id);
- };
+  };
 
- return (
+  return (
     <main>
       <div className="container3">
         <div className="icon">
           {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
             <div
               key={i}
-              className={`imgBx ${activeCommittee === `content${i}` ? 'active' : ''}`}
-              style={{ '--i': i }}
+              className={`imgBx ${
+                activeCommittee === `content${i}` ? "active" : ""
+              }`}
+              style={{ "--i": i }}
               data-id={`content${i}`}
               onMouseOver={() => handleMouseOver(`content${i}`)}
             >
-              <img src={`src/assets/Committees/Committee${i}.png`} alt={`Committee ${i}`} />
+              <img src={`./Committee${i}.png`} alt={`Committee ${i}`} />
             </div>
           ))}
         </div>
@@ -28,18 +30,18 @@ const Committee = () => {
           {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
             <div
               key={i}
-              className={`contentBx ${activeCommittee === `content${i}` ? 'active' : ''}`}
+              className={`contentBx ${
+                activeCommittee === `content${i}` ? "active" : ""
+              }`}
               id={`content${i}`}
             >
               <div className="card">
                 <div className="textBx">
-                 <h2>
+                  <h2>
                     Committee {i}
                     <br />
-                    <span>
-                      Description for Committee {i}
-                    </span>
-                 </h2>
+                    <span>Description for Committee {i}</span>
+                  </h2>
                 </div>
               </div>
             </div>
@@ -47,7 +49,7 @@ const Committee = () => {
         </div>
       </div>
     </main>
- );
+  );
 };
 
 export default Committee;
@@ -80,31 +82,31 @@ export default Committee;
 //               style={{ "--i": 1 }}
 //               data-id="content1"
 //             >
-//               <img src="src/assets/Committees/Technical.png" alt="Technical" />
+//               <img src="./Technical.png" alt="Technical" />
 //             </div>
 //             <div className="imgBx" style={{ "--i": 2 }} data-id="content2">
-//               <img src="src/assets/Committees/Events.png" alt="Events" />
+//               <img src="./Events.png" alt="Events" />
 //             </div>
 //             <div className="imgBx" style={{ "--i": 3 }} data-id="content3">
 //               <img
-//                 src="src/assets/Committees/Pr.png"
+//                 src="./Pr.png"
 //                 alt="PR & Sponsorship"
 //               />
 //             </div>
 //             <div className="imgBx" style={{ "--i": 4 }} data-id="content4">
-//               <img src="src/assets/Committees/Editorial.png" alt="Editorial" />
+//               <img src="./Editorial.png" alt="Editorial" />
 //             </div>
 //             <div className="imgBx" style={{ "--i": 5 }} data-id="content5">
-//               <img src="src/assets/Committees/Design.png" alt="Design & VFX" />
+//               <img src="./Design.png" alt="Design & VFX" />
 //             </div>
 //             <div className="imgBx" style={{ "--i": 6 }} data-id="content6">
-//               <img src="src/assets/Committees/CSR.png" alt="CSR" />
+//               <img src="./CSR.png" alt="CSR" />
 //             </div>
 //             <div className="imgBx" style={{ "--i": 7 }} data-id="content7">
-//               <img src="src/assets/Committees/Social.png" alt="Social Media" />
+//               <img src="./Social.png" alt="Social Media" />
 //             </div>
 //             <div className="imgBx" style={{ "--i": 8 }} data-id="content8">
-//               <img src="src/assets/Committees/Logistic.png" alt="Logistics" />
+//               <img src="./Logistic.png" alt="Logistics" />
 //             </div>
 //           </div>
 //           <div className="content">

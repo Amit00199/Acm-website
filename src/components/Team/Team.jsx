@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "./Card";
-import './Team.css'
+import "./Team.css";
 import TextSpan from "./TextSpan";
 const BoardofExecutives = [
   {
     name: "Sarthak Rathore",
     position: "Member",
-    image: "src/assets/Sarthak.jpg",
+    image: "./Sarthak.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -15,7 +15,7 @@ const BoardofExecutives = [
   {
     name: "Vaishnavi Srivastava",
     position: "Member",
-    image: "src/assets/vaishnavi.jpg",
+    image: "./vaishnavi.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -24,7 +24,7 @@ const BoardofExecutives = [
   {
     name: "Rishika Bhalla",
     position: "Member",
-    image: "src/assets/RishikaImg.jpeg",
+    image: "./RishikaImg.jpeg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -33,7 +33,7 @@ const BoardofExecutives = [
   {
     name: "Aditya Pilani",
     position: "Member",
-    image: "src/assets/adityapilani.jpg",
+    image: "./adityapilani.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -42,7 +42,7 @@ const BoardofExecutives = [
   {
     name: "Bharat Anand",
     position: "Member",
-    image: "src/assets/bharat.jpeg",
+    image: "./bharat.jpeg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -51,7 +51,7 @@ const BoardofExecutives = [
   {
     name: "Rohit Gupta",
     position: "Member",
-    image: "src/assets/rohit.jpg",
+    image: "./rohit.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -60,7 +60,7 @@ const BoardofExecutives = [
   {
     name: "Chetany Bhardwaj",
     position: "Member",
-    image: "src/assets/chetany.jpg",
+    image: "./chetany.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -69,7 +69,7 @@ const BoardofExecutives = [
   {
     name: "Aadish Bansal",
     position: "Member",
-    image: "src/assets/adish.jpg",
+    image: "./adish.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -78,7 +78,7 @@ const BoardofExecutives = [
   {
     name: "Dhroov Sharma",
     position: "Member",
-    image: "src/assets/dhroov.jpg",
+    image: "./dhroov.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -87,7 +87,7 @@ const BoardofExecutives = [
   {
     name: "Ayush Pradhan",
     position: "Member",
-    image: "src/assets/ayush.jpg",
+    image: "./ayush.jpg",
     variable: "BOE",
     linkedin: "",
     github: "",
@@ -98,7 +98,7 @@ const OfficeBearers = [
   {
     name: "Mr.Pankaj Badoni",
     position: "Faculty Coordinator",
-    image: "src/assets/pankaj.jpg",
+    image: "./pankaj.jpg",
     variable: "",
     linkedin: "",
     github: "",
@@ -107,7 +107,7 @@ const OfficeBearers = [
   {
     name: "Utkarsh Rastogi",
     position: "Chairperson",
-    image: "src/assets/utkarsh.jpg",
+    image: "./utkarsh.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -116,7 +116,7 @@ const OfficeBearers = [
   {
     name: "Siddhant Kwatra",
     position: "Vice-Chairperson",
-    image: "src/assets/siddhant.jpg",
+    image: "./siddhant.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -125,7 +125,7 @@ const OfficeBearers = [
   {
     name: "Kavya Chugh",
     position: "Treasurer",
-    image: "src/assets/Kavya.jpeg",
+    image: "./Kavya.jpeg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -134,7 +134,7 @@ const OfficeBearers = [
   {
     name: "Sahil Bathla",
     position: "Secretary",
-    image: "src/assets/sahil.jpg",
+    image: "./sahil.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -143,7 +143,7 @@ const OfficeBearers = [
   {
     name: "Shradha Mudgil",
     position: "Joint Secretary",
-    image: "src/assets/shradha.jpg",
+    image: "./shradha.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -152,7 +152,7 @@ const OfficeBearers = [
   {
     name: "Md Arslan",
     position: "Technical Head",
-    image: "src/assets/arslan.jpg",
+    image: "./arslan.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -161,7 +161,7 @@ const OfficeBearers = [
   {
     name: "Aarohi Sharma",
     position: "Event Head",
-    image: "src/assets/aarohisharma.jpg",
+    image: "./aarohisharma.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -171,7 +171,7 @@ const OfficeBearers = [
   {
     name: "Lavanya Arora",
     position: "PR & Sponsorship Head",
-    image: "src/assets/lavanya.jpg",
+    image: "./lavanya.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -181,7 +181,7 @@ const OfficeBearers = [
   {
     name: "Gurmehr Singh Gulati",
     position: "Joint PR & Sponsorship Head",
-    image: "src/assets/gurmehr.jpg",
+    image: "./gurmehr.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -190,7 +190,7 @@ const OfficeBearers = [
   {
     name: "Aarohi Saxena",
     position: "Social Media Head",
-    image: "src/assets/aarohisaxena.jpg",
+    image: "./aarohisaxena.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -199,7 +199,7 @@ const OfficeBearers = [
   {
     name: "Diya Rana",
     position: "Editorial Head",
-    image: "src/assets/harvijay.jpg",
+    image: "./harvijay.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -208,7 +208,7 @@ const OfficeBearers = [
   {
     name: "Harvijay Singh Virk",
     position: "CSR Head",
-    image: "src/assets/harvijay.jpg",
+    image: "./harvijay.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -217,7 +217,7 @@ const OfficeBearers = [
   {
     name: "Rajdeep Singh Sidhu",
     position: "Logistics Head",
-    image: "src/assets/rajdeep.jpg",
+    image: "./rajdeep.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -226,7 +226,7 @@ const OfficeBearers = [
   {
     name: "Supragya Gandotra",
     position: "Design Head",
-    image: "src/assets/supragya.jpg",
+    image: "./supragya.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -235,7 +235,7 @@ const OfficeBearers = [
   {
     name: "Milan Singhal",
     position: "Joint Design Head",
-    image: "src/assets/milan.jpg",
+    image: "./milan.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -244,7 +244,7 @@ const OfficeBearers = [
   {
     name: "Anchit Das",
     position: "VFX Head",
-    image: "src/assets/anchit.jpg",
+    image: "./anchit.jpg",
     variable: "ACM",
     linkedin: "",
     github: "",
@@ -253,20 +253,21 @@ const OfficeBearers = [
 ];
 
 function Team() {
-  const sentence  = "Meet our team".split("");
+  const sentence = "Meet our team".split("");
 
   return (
     <>
       <div className="container">
         <div className="wrapper">
           <div className="heading">
-           <h1>{sentence.map((letter,ind)=>{
-              return(
-                <TextSpan className ="bumpy" key={ind}>
-                {letter === " " ? "\u00A0" : letter}
-                </TextSpan>
-              )
-            })}
+            <h1>
+              {sentence.map((letter, ind) => {
+                return (
+                  <TextSpan className="bumpy" key={ind}>
+                    {letter === " " ? "\u00A0" : letter}
+                  </TextSpan>
+                );
+              })}
             </h1>
             {/* <h2>XYZ</h2> */}
           </div>
@@ -277,12 +278,12 @@ function Team() {
             <div className="wrapper-div">
               {BoardofExecutives.map((executive) => (
                 <Card
-                name={executive.name.split("").map((letter,ind1)=>{
-                  return(
-                    <TextSpan className ="bumpy" key={ind1}>
-                    {letter === " " ? "\u00A0" : letter}
-                    </TextSpan>
-                  )
+                  name={executive.name.split("").map((letter, ind1) => {
+                    return (
+                      <TextSpan className="bumpy" key={ind1}>
+                        {letter === " " ? "\u00A0" : letter}
+                      </TextSpan>
+                    );
                   })}
                   // name={executive.name}
                   position={executive.position}
@@ -298,15 +299,15 @@ function Team() {
             <h2>Office Bearers</h2>
 
             <div className="wrapper-div">
-              {OfficeBearers.map((bearer,ind) => (
+              {OfficeBearers.map((bearer, ind) => (
                 <Card
-                  name = {bearer.name.split("").map((letter,ind2)=>{
-                    return(
-                      <TextSpan className ="bumpy" key={ind2}>
-                      {letter === " " ? "\u00A0" : letter}
+                  name={bearer.name.split("").map((letter, ind2) => {
+                    return (
+                      <TextSpan className="bumpy" key={ind2}>
+                        {letter === " " ? "\u00A0" : letter}
                       </TextSpan>
-                    )
-                    })}
+                    );
+                  })}
                   // name={bearer.name}
                   position={bearer.position}
                   image={bearer.image}
